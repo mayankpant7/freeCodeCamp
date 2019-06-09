@@ -1,3 +1,41 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+<body>
+    <h1 id="title">
+            Survey Form
+    </h1>
+
+    <p id="description">
+        Let us know how we can improve freeCodeCamp
+    </p>
+
+    <form id="survey-form" action="">
+
+        <label for="name" id="name-label"><span>*</span> Name</label>
+        <input type="text" id="name" required placeholder="Enter your Name" name="name">
+
+        <label for="email" id="email-label"> <span>*</span> Email </label>
+        <input type="email" id="email" required placeholder="Enter your email" name="email">
+
+        <label for="number" id="number-label"> <span>*</span> Age </label>
+        <input type="number" id="number" placeholder="Age" name="age">
+
+        <div id="dropdown">
+                Which option best describes your current role?
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+
+                * How likely is that you would recommend freeCodeCamp to a friend?
+                <input type="radio" name="attribute" value="Definitely">Definitely
+                <input type="radio" name="attribute" value="Maybe">Maybe
+                <input type="radio" name="attribute" value="Not Sure">Not Sure
+        
+
+    </form>
+</body>
 
